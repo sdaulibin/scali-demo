@@ -1,0 +1,17 @@
+server:
+  port: 8090 #服务端口
+spring:
+  application:
+    name: order-service-dubbo #微服务id
+  cloud:
+    nacos: #nacos注册地址
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+dubbo: #dubbo与nacos的通信配置
+  application:
+    name: order-dubbo #provider在Nacos中的应用id
+  registry: #Provider与Nacos通信地址，与spring.cloud.nacos地址一致
+    address: nacos://127.0.0.1:8848
+
