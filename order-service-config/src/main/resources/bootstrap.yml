@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order-service-config #微服务id
+  profiles:
+    active: dev #环境名
+  cloud:
+    nacos:
+      config: #Nacos配置中心配置
+        file-extension: yml #文件扩展名
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+logging: #开启debug日志，仅为学习时使用
+  level:
+    root: debug

@@ -79,6 +79,9 @@
         <module>order-service</module>
         <module>warehouse-service-dubbo</module>
         <module>order-service-dubbo</module>
+        <module>sentinel-sample</module>
+        <module>order-service-config</module>
+        <module>sentinel-nacos-sample</module>
     </modules>
 
 </project>
