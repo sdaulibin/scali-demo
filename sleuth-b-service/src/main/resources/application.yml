@@ -1,0 +1,14 @@
+server:
+  port: 8000 #a:7000/b:8000/c:9000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+  application:
+    name: sleuth-b-service #sleuth-a-service/sleuth-b-service/sleuth-c-service
+logging:
+  level:
+    root: debug #为演示需要，开启debug级别日志
