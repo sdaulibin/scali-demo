@@ -1,6 +1,6 @@
 server:
-  port: 7000 #a:7000/b:8000/c:9000
-spring:
+  port: 7010 #a:7000/b:8000/c:9000
+spring.sl:
   cloud:
     nacos:
       discovery:
@@ -8,7 +8,14 @@ spring:
         username: nacos
         password: nacos
   application:
-    name: sleuth-a-service #sleuth-a-service/sleuth-b-service/sleuth-c-service
+    name: sleutha-service #sleutha-service/sleuthb-service/sleuthc-service
+#  sleuth:
+#    sampler: #采样器
+#      probability: 1.0 #采样率，采样率是采集Trace的比率，默认0.1
+#      rate: 10000 #每秒数据采集量，最多n条/秒Trace
+#  zipkin:
+#    #设置zipkin服务端地址
+#    base-url: http://127.0.0.1:9411
 logging:
   level:
     root: debug #为演示需要，开启debug级别日志

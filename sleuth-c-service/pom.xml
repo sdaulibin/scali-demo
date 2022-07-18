@@ -25,6 +25,16 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <!--&lt;!&ndash;添加Sleuth依赖 &ndash;&gt;
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <version>2.2.6.RELEASE</version>
+        </dependency>-->
     </dependencies>
 
     <build>
@@ -44,7 +54,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.sdjictec.scalidemo.sleutha.SleuthcApplication</mainClass>
+                    <mainClass>com.sdjictec.scalidemo.sleuthc.SleuthcApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

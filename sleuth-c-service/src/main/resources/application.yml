@@ -8,7 +8,14 @@ spring:
         username: nacos
         password: nacos
   application:
-    name: sleuth-c-service #sleuth-a-service/sleuth-b-service/sleuth-c-service
+    name: sleuthc-service #sleutha-service/sleuthb-service/sleuthc-service
+#  sleuth:
+#    sampler: #采样器
+#      probability: 1.0 #采样率，采样率是采集Trace的比率，默认0.1
+#      rate: 10000 #每秒数据采集量，最多n条/秒Trace
+#  zipkin:
+#    #设置zipkin服务端地址
+#    base-url: http://127.0.0.1:9411
 logging:
   level:
     root: debug #为演示需要，开启debug级别日志
