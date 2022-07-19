@@ -25,7 +25,7 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <!--&lt;!&ndash;添加Sleuth依赖 &ndash;&gt;
+        <!--添加Sleuth依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-sleuth</artifactId>
@@ -34,7 +34,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
             <version>2.2.6.RELEASE</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>

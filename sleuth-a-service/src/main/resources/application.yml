@@ -1,6 +1,6 @@
 server:
   port: 7010 #a:7000/b:8000/c:9000
-spring.sl:
+spring:
   cloud:
     nacos:
       discovery:
