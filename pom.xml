@@ -88,6 +88,8 @@
         <module>sleuth-a-service</module>
         <module>sleuth-b-service</module>
         <module>sleuth-c-service</module>
+        <module>rocketmq-producer</module>
+        <module>rocketmq-consumer</module>
     </modules>
 
 </project>
