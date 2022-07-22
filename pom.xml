@@ -90,6 +90,10 @@
         <module>sleuth-c-service</module>
         <module>rocketmq-producer</module>
         <module>rocketmq-consumer</module>
+        <module>rm-points</module>
+        <module>rm-storage</module>
+        <module>tm-mall</module>
+        <module>rm-order</module>
     </modules>
 
 </project>
